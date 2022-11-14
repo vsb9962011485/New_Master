@@ -1,0 +1,11 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program T2.
+/**
+/** :author 91988
+/* TODO Enter your code here
+WRITE 'hello how are you?...'
+Write 'Hiiiiiii'
+END
