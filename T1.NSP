@@ -6,5 +6,15 @@
 /**
 /** :author 91988
 /* TODO Enter your code here
+/* Code Conflicts 
+DEFINE DATA LOCAL
+01 #CNT1 (N2)
+01 #CNT2 (N2)
+01 #CNT3 (N2)
+END-DEFINE
+#CNT1 := 2
+#CNT2 := 2
+#CNT3 := #CNT1 + #CNT2
 WRITE 'HELLO'
+WRITE 'GOOD DAY'
 END
