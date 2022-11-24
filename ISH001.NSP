@@ -6,6 +6,6 @@
 /**
 /** :author Administrator
 /* TODO Enter your code here
-DISPLAY "HAPPINESS"
-WRITE "Hello World"
+DISPLAY 'HAPPINESS'
+WRITE 'Hello World'
 END
