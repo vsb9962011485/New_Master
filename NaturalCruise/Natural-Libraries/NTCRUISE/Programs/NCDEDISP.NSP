@@ -10,6 +10,7 @@
 /**         <li>with EDIT Mask</li>
 /**     </ul>
 /** :author Training
+/** Release_31012023 Modified by PesalaU123
 DEFINE DATA LOCAL
   USING NCDEMAPL
 END-DEFINE
