@@ -29,7 +29,7 @@ READ (10) NCCRUISE
     NCCRUISE.END-DATE (EM=9999'-'99'-'99)
     NCCRUISE.DESTINATION-HARBOR (AL=10)
     NCCRUISE.PRICE-1W (EM=*EUR' 'ZZZZ9.99)
-  WRITE 'Program works as expected'
+  WRITE 'Program works expected'
 *
 END-READ
 *
