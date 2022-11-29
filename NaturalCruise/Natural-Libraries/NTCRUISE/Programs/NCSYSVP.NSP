@@ -33,7 +33,7 @@ READ (10) NCCRUISE
   Move 'Program works expected' to #a
   Move true to #found
   Move 'Happiness' to #b
-  WRITE #A #found #b1
+  WRITE 'Inside write' #A #found #b1
 *
 END-READ
 *
