@@ -1,0 +1,16 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program EXAM001P.
+/**
+/** :author Administrator
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+  USING EXAM001L
+ END-DEFINE
+ #COUNT1 := 20
+ #COUNT2 := 10
+ #TOTAL := #COUNT1 + #COUNT2
+ WRITE 'CALCULATED VAL: ' #TOTAL
+END

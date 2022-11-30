@@ -1,0 +1,13 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Local Data Area EXAM001.
+/**
+/** :author Administrator
+/* TODO Enter your data definitions here
+01 #COUNT1    (N2)
+01 #COUNT2    (N2)
+01 #TOTAL     (N3) 
+END-DEFINE 
