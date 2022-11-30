@@ -9,5 +9,6 @@ DEFINE DATA LOCAL
 /* TODO Enter your data definitions here
 01 #COUNT1    (N2)
 01 #COUNT2    (N2)
-01 #TOTAL     (N3) 
+01 #TOTAL     (N3)
+ 
 END-DEFINE 
