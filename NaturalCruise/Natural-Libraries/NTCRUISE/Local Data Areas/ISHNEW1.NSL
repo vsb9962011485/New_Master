@@ -1,0 +1,17 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Local Data Area ISHNEW.
+/**
+/** :author Administrator
+/* TODO Enter your data definitions here
+01 #A (A10)
+01 #B (A10)
+01 redefine #b
+02 #b1 (a5)
+02 #b2 (a5)
+01 #found (l)
+01 #c (a5)
+END-DEFINE
