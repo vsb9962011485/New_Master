@@ -1,0 +1,11 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Local Data Area TEST.
+/**
+/** :author 91988
+/* TODO Enter your data definitions here
+01 #A (A10)
+END-DEFINE

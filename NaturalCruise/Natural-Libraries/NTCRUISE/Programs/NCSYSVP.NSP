@@ -13,8 +13,11 @@
 /** :author Training
 DEFINE DATA LOCAL
   USING NCDEMAPL
+**Local using ISH002
+Local using ISHnew1
 LOCAL
 1 #YACHT-NAME (A10)
+
 END-DEFINE
 *
 READ (10) NCCRUISE
@@ -29,6 +32,11 @@ READ (10) NCCRUISE
     NCCRUISE.END-DATE (EM=9999'-'99'-'99)
     NCCRUISE.DESTINATION-HARBOR (AL=10)
     NCCRUISE.PRICE-1W (EM=*EUR' 'ZZZZ9.99)
+  Move 'Program works expected' to #a
+  Move true to #found
+  Move 'Happiness' to #b
+  WRITE 'Inside' #A #found #b1
+  Write ' Complete'
 *
 END-READ
 *

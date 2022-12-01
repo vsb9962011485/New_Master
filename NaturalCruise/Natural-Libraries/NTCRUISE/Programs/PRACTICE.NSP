@@ -1,0 +1,17 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program PRACTICE.
+/**
+/** :author Administrator
+/* TODO Enter your code here
+DEFINE DATA LOCAL
+01 #D (N2)
+END-DEFINE 
+INPUT #D
+REPEAT UNTIL #D LE 1
+  #D := #D /2
+  DISPLAY #D
+END-REPEAT
+END
