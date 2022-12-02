@@ -1,0 +1,20 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Subprogram NMONTH.
+/**
+/** :author Administrator
+/* TODO Enter your code here
+Define data
+parameter using nmon001
+local
+01 #i (n2)
+LOCAL
+01 #month-array (a30/1:12) CONST<'JANUARY','FEBRUARY','MARCH','APRIL','MAY','JUNE','JULY',
+'AUGUST','SEPTEMBER','OCTOBER','NOVEMBER','DECEMBER'>
+end-define    
+For #i 1 to 12
+move #MONTH-ARRAY(#I) to #month(#i)
+END-FOR  
+END
