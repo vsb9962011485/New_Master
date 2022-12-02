@@ -1,0 +1,11 @@
+DEFINE DATA PARAMETER
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+/** New Parameter Data Area NMON001.
+/**
+/** :author Administrator
+/* TODO Enter your data definitions here
+01 #month (A30/1:12)
+END-DEFINE

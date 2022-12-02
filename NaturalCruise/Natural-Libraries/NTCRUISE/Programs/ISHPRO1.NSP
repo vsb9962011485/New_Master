@@ -1,0 +1,22 @@
+* >Natural Source Header 000000
+* :Mode S
+* :CP
+* <Natural Source Header
+/** New Program ISHPRO1.
+/**
+/** :author Administrator
+/* TODO Enter your code here
+Define data
+local using ISHNEW2
+local using ishnew1
+local using NMON001
+end-define
+input #input-num
+callnat 'NMONTH' #month(*)
+For #i1 1 to 12 
+if #i1 eq #input-num
+print #month(#i1)
+escape bottom
+end-if
+end-for
+END
